@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: et-user-auth-service
+
+  data:
+    mongodb:
+      uri: mongodb+srv://nitishrupak:admin123@test-0-cluster.xyn80.mongodb.net/?retryWrites=true&w=majority&appName=test-0-cluster
+      database:  et-user-auth-service
+server:
+  port: 8081
+
